@@ -16,7 +16,8 @@ var n = d.getFullYear();
 var x = document.getElementById("1").value;
 var y = n - x
 
-if (x == null || x == "" ) {
+
+if (x == null || x == "") {
 	document.getElementById("message").innerHTML = "<h1 class='warning_message'>Please insert a year of birth!</h1>";
 	return;
 	}
@@ -40,6 +41,8 @@ else if( y == 19 || y == 18) {
 		return;	
 		
 		}
+		
+ 
 		
 		
 function age2() {
