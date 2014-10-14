@@ -1,12 +1,3 @@
-
-//function date_now() {
-//	
-//    var d = new Date();
-//    var n = d.getFullYear();
-//	document.getElementById("current").innerHTML = n;
-//	
-//	}
-	
 function sendage() {
 		
 	var f = document.getElementById("u19").options;
@@ -24,7 +15,14 @@ var d = new Date();
 var n = d.getFullYear();
 var x = document.getElementById("1").value;
 var y = n - x
-if( y == 19 || y == 18) {
+
+if (x == null || x == "" ) {
+	document.getElementById("message").innerHTML = "<h1 class='warning_message'>Please insert a year of birth!</h1>";
+	return;
+	}
+
+
+else if( y == 19 || y == 18) {
 
 	document.getElementById("message").innerHTML = "<h1 class='message'><i class='fa fa-thumbs-up'> Able to Play</i> <br /> His age is " + y +"</h1>";
 	return;	
@@ -50,7 +48,14 @@ var d = new Date();
 var n = d.getFullYear();
 var x = document.getElementById("2").value;
 var y = n - x
-if( y == 18 || y == 17) {
+
+
+if (x == null || x == "" ) {
+	document.getElementById("message").innerHTML = "<h1 class='warning_message'>Please insert a year of birth!</h1>";
+	return;
+	}
+
+else if( y == 18 || y == 17) {
 
 	document.getElementById("message").innerHTML = "<h1 class='message'><i class='fa fa-thumbs-up'> Able to Play</i> <br /> His age is " + y +"</h1>";
 	return;	

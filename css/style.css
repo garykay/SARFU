@@ -28,4 +28,9 @@ body.homepage {
 .message_alt {
 	color: #F00;
 	font-size:24px;
-	}		
+	}
+	
+.warning_message {
+	color: #F00;
+	font-size: 18px;
+	}			
