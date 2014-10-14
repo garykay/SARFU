@@ -1,6 +1,12 @@
 @charset "UTF-8";
 /* CSS Document */
 
+body.homepage {
+	background-image:url(../images/bok.jpg);
+	background-repeat:no-repeat;
+	background-position:center 215px;
+	}
+
 #current {
 	color: #BD0006;
 	}
