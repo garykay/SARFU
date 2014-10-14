@@ -11,10 +11,22 @@ body.homepage {
 	color: #BD0006;
 	}
 
-.backtostart, .submitage, .agebox {
+.backtostart, .agebox {
 	width: 100%;
 	font-size:24px;
 		}
+		
+.submitage {
+	width: 48%;
+	font-size:24px;
+	float: right;
+	}
+	
+.restebtn {
+	width: 48%;
+	font-size:24px;
+	float: left;
+	 }			
 		
 .backtostart {
 	margin-top: 30px;

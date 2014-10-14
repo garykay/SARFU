@@ -18,23 +18,23 @@ var y = n - x
 
 
 if (x == null || x == "") {
-	document.getElementById("message").innerHTML = "<h1 class='warning_message'>Please insert a year of birth!</h1>";
+	document.getElementById("message").innerHTML = "<h3 class='warning_message'>Please insert a year of birth!</h3>";
 	return;
 	}
 
 
 else if( y == 19 || y == 18) {
 
-	document.getElementById("message").innerHTML = "<h1 class='message'><i class='fa fa-thumbs-up'> Able to Play</i> <br /> His age is " + y +"</h1>";
+	document.getElementById("message").innerHTML = "<h3 class='message'><i class='fa fa-thumbs-up'> Able to Play</i> His age is " + y +"</h3>";
 	return;	
 		
 	} else if(y <= 17){
-		document.getElementById("message").innerHTML = "<h1 class='message_alt'><i class='fa fa-thumbs-down'> Not Able to Play</i> <br /> His age is " + y + "</h1>";
+		document.getElementById("message").innerHTML = "<h3 class='message_alt'><i class='fa fa-thumbs-down'> Not Able to Play</i> His age is " + y + "</h3>";
 		return;	
 		}
 		
 	else if(y > 19){
-		document.getElementById("message").innerHTML = "<h1 class='message_alt'><i class='fa fa-thumbs-down'> Not Able to Play</i> <br /> His age is " + y + "</h1>" ;
+		document.getElementById("message").innerHTML = "<h3 class='message_alt'><i class='fa fa-thumbs-down'> Not Able to Play</i> His age is " + y + "</h3>" ;
 		return;	
 		}		
 		
@@ -54,24 +54,24 @@ var y = n - x
 
 
 if (x == null || x == "" ) {
-	document.getElementById("message").innerHTML = "<h1 class='warning_message'>Please insert a year of birth!</h1>";
+	document.getElementById("message").innerHTML = "<h3 class='warning_message'>Please insert a year of birth!</h3>";
 	return;
 	}
 
 else if( y == 18 || y == 17) {
 
-	document.getElementById("message").innerHTML = "<h1 class='message'><i class='fa fa-thumbs-up'> Able to Play</i> <br /> His age is " + y +"</h1>";
+	document.getElementById("message").innerHTML = "<h3 class='message'><i class='fa fa-thumbs-up'> Able to Play</i> His age is " + y +"</h3>";
 	return;	
 		
 	} 
 	
 	else if(y <= 16){
-		document.getElementById("message").innerHTML = "<h1 class='message_alt'><i class='fa fa-thumbs-down'> Not Able to Play</i> <br /> His age is " + y + "</h1>" ;
+		document.getElementById("message").innerHTML = "<h3 class='message_alt'><i class='fa fa-thumbs-down'> Not Able to Play</i> His age is " + y + "</h3>" ;
 		return;	
 		}
 		
 	else if(y > 18){
-		document.getElementById("message").innerHTML = "<h1 class='message_alt'><i class='fa fa-thumbs-down'> Not Able to Play</i> <br /> His age is " + y + "</h1>";
+		document.getElementById("message").innerHTML = "<h3 class='message_alt'><i class='fa fa-thumbs-down'> Not Able to Play</i> His age is " + y + "</h3>";
 		return;	
 		}		
 		
