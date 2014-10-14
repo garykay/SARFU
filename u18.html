@@ -18,7 +18,7 @@ function date_now() {
     var n = d.getFullYear();
 	document.getElementById("current").innerHTML = n;
 	
-	document.getElementById("1").focus();
+	document.getElementById("2").focus();
 	}
 
 </script>
@@ -34,11 +34,12 @@ function date_now() {
     <a href="index.html"><button class="btn btn-danger backtostart"><i class="fa fa-arrow-circle-left"> Back to start</i></button></a>
     
      <div class="page-header" data-pg-id="20">
-            <h2>SA RUGBY <small>u19</small></h2>
+            <h2>SA RUGBY <small>u18</small></h2>
         </div>    
     <h3>Current Year:&nbsp;<span id="current"></span> </h3> 
-            <input type="number" id="1" class="agebox" placeholder="Year of birth"> <br /><br />
-            <input type="button" value="Submit" onClick="age()" class="btn btn-danger submitage">      
+
+            <input type="number" id="2" class="agebox" placeholder="Year of birth"> <br /><br />
+            <input type="button" value="Submit" onClick="age2()" class="btn btn-danger submitage">      
     
  	</div>
     
@@ -53,6 +54,6 @@ function date_now() {
     </div>
 </div>
 <script src="js/bootstrap.js"></script>
-<script src="js/jquery-1.5.min.js"></script>
+<script src="js/jquery.js"></script>
 </body>
 </html>
