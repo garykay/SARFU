@@ -6,7 +6,7 @@
         id        = "com.roomworkmedia.agebanding"
         version   = "1.0.0">
 
-    <name>SARFU Age Banding</name>
+    <name>SA Rugby Age Banding</name>
 
     <description>
         Age Banding for age presentation.
