@@ -47,15 +47,4 @@ body.homepage {
 	font-size: 18px;
 	}
 	
-select {
-background-color:white; 
-border:1px solid;
-border-image:initial;
-box-sizing:border-box; 
-color:black; 
-cursor:default;
-white-space:pre;
--webkit-appearance:menulist; 
--webkit-box-align:center; 
--webkit-rtl-ordering: logical;
-}				
+				
