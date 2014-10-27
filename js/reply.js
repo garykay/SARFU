@@ -23,7 +23,7 @@
 			$().toastmessage('showToast', {
 				text : 'Notice Dialog which is sticky',
 				sticky : true,
-				position : 'top-right',
+				position : 'top-center',
 				type : 'notice',
 				closeText : '',
 				close : function() {
