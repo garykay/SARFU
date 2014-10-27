@@ -39,7 +39,7 @@
 			$().toastmessage('showToast', {
 				text : 'He is not able to play',
 				sticky : true,
-				position : 'top-right',
+				position : 'top-center',
 				type : 'warning',
 				closeText : '',
 				close : function() {
