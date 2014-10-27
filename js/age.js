@@ -16,12 +16,12 @@ var n = d.getFullYear();
 var x = document.getElementById("1").value;
 var y = n - x
 
-//if (y >= 20 || y <= 16) {
-//	
-//	showStickyWarningToast();
-//	return;
-//	
-//	}
+if (y >= 22 || y <= 4) {
+	
+	showStickyNoticeToast();
+	return;
+	
+	}
 
 
 if (x == null || x == "") {

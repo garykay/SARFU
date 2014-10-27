@@ -17,11 +17,11 @@
 		}
 		function showNoticeToast() {
 			$().toastmessage('showNoticeToast',
-					"Notice  Dialog which is fading away ...");
+					"Please insert program specific year range!");
 		}
 		function showStickyNoticeToast() {
 			$().toastmessage('showToast', {
-				text : 'Notice Dialog which is sticky',
+				text : 'Please insert program specific year range!',
 				sticky : true,
 				position : 'top-center',
 				type : 'notice',
@@ -59,7 +59,7 @@
 				type : 'error',
 				closeText : '',
 				close : function() {
-					//resetage();
+					resetage();
 				}
 			});
 		}
