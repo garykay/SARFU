@@ -16,20 +16,18 @@ var n = d.getFullYear();
 var x = document.getElementById("1").value;
 var y = n - x
 
+if (x == null || x == "") {
+	showStickyErrorToast();
+	return;
+	}
+
 if (y >= 22 || y <= 4) {
 	
 	showStickyNoticeToast();
 	return;
 	
 	}
-
-
-if (x == null || x == "") {
-	showStickyErrorToast();
-	return;
-	}
-
-
+	
 else if( y == 19 || y == 18) {
 	document.getElementById("message").innerHTML = "<h3 class='message'>His age is " + y +"</h3>";
 	showStickySuccessToast();
@@ -61,18 +59,19 @@ var n = d.getFullYear();
 var x = document.getElementById("2").value;
 var y = n - x
 
+
+if (x == null || x == "" ) {
+	showStickyErrorToast();
+	return;
+	}
+	
 if (y >= 22 || y <= 4) {
 	
 	showStickyNoticeToast();
 	return;
 	
 	}
-
-if (x == null || x == "" ) {
-	showStickyErrorToast();
-	return;
-	}
-
+	
 else if( y == 18 || y == 17) {
 
 	document.getElementById("message").innerHTML = "<h3 class='message'>His age is " + y +"</h3>";
