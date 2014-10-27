@@ -8,8 +8,11 @@
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
 <link rel="stylesheet" type="text/css" href="css/jquery.toastmessage.css">
+
+<script src="js/jquery.js"></script>
 <script src="js/age.js" type="text/javascript"></script>
 <script src="js/jquery.toastmessage.js"></script>
+<script src="js/reply.js"></script>
 <script>
 
 function date_now() {
@@ -22,6 +25,7 @@ function date_now() {
 	}
 
 </script>
+	
  </head>
 
 <body onLoad="date_now()">
@@ -39,7 +43,7 @@ function date_now() {
     <h3>Current Year:&nbsp;<span id="current"></span> </h3> 
             <input type="number" id="1" class="agebox" placeholder="Year of birth" step="0.01"> <br /><br />
              <button onClick="resetage()" class="btn btn-danger restebtn">Reset</button>
-            <input type="button" value="Submit" onClick="age()" class="btn btn-success submitage">
+            <input type="button" value="Submit" onClick="return u19()" class="btn btn-success submitage">
                   
     
  	</div>
@@ -47,12 +51,11 @@ function date_now() {
     
     
     <div class="col-md-12" id="message" ></div>
-    
+     
     
   
     </div>
 </div>
 <script src="js/bootstrap.js"></script>
-<script src="js/jquery-1.5.min.js"></script>
 </body>
 </html>

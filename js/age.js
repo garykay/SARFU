@@ -9,32 +9,41 @@ function sendage() {
 	}	
 	
 	
-function age() {
+function u19() {
 	
 var d = new Date();
 var n = d.getFullYear();
 var x = document.getElementById("1").value;
 var y = n - x
 
+//if (y >= 20 || y <= 16) {
+//	
+//	showStickyWarningToast();
+//	return;
+//	
+//	}
+
 
 if (x == null || x == "") {
-	document.getElementById("message").innerHTML = "<h3 class='warning_message'>Please insert a year of birth!</h3>";
+	showStickyErrorToast();
 	return;
 	}
 
 
 else if( y == 19 || y == 18) {
-
-	document.getElementById("message").innerHTML = "<h3 class='message'><i class='fa fa-thumbs-up'> Able to Play</i> His age is " + y +"</h3>";
+	document.getElementById("message").innerHTML = "<h3 class='message'>His age is " + y +"</h3>";
+	showStickySuccessToast();
 	return;	
 		
 	} else if(y <= 17){
-		document.getElementById("message").innerHTML = "<h3 class='message_alt'><i class='fa fa-thumbs-down'> Not Able to Play</i> His age is " + y + "</h3>";
+		showStickyWarningToast();
+		document.getElementById("message").innerHTML = "<h3 class='message_alt'> His age is " + y + "</h3>";
 		return;	
 		}
 		
 	else if(y > 19){
-		document.getElementById("message").innerHTML = "<h3 class='message_alt'><i class='fa fa-thumbs-down'> Not Able to Play</i> His age is " + y + "</h3>" ;
+		showStickyWarningToast();
+		document.getElementById("message").innerHTML = "<h3 class='message_alt'>His age is " + y + "</h3>" ;
 		return;	
 		}		
 		
@@ -45,33 +54,35 @@ else if( y == 19 || y == 18) {
  
 		
 		
-function age2() {
+function u18() {
 	
 var d = new Date();
 var n = d.getFullYear();
 var x = document.getElementById("2").value;
 var y = n - x
 
-
 if (x == null || x == "" ) {
-	document.getElementById("message").innerHTML = "<h3 class='warning_message'>Please insert a year of birth!</h3>";
+	showStickyErrorToast();
 	return;
 	}
 
 else if( y == 18 || y == 17) {
 
-	document.getElementById("message").innerHTML = "<h3 class='message'><i class='fa fa-thumbs-up'> Able to Play</i> His age is " + y +"</h3>";
+	document.getElementById("message").innerHTML = "<h3 class='message'>His age is " + y +"</h3>";
+	showStickySuccessToast();
 	return;	
 		
 	} 
 	
 	else if(y <= 16){
-		document.getElementById("message").innerHTML = "<h3 class='message_alt'><i class='fa fa-thumbs-down'> Not Able to Play</i> His age is " + y + "</h3>" ;
+		showStickyWarningToast();
+		document.getElementById("message").innerHTML = "<h3 class='message_alt'>His age is " + y + "</h3>" ;
 		return;	
 		}
 		
 	else if(y > 18){
-		document.getElementById("message").innerHTML = "<h3 class='message_alt'><i class='fa fa-thumbs-down'> Not Able to Play</i> His age is " + y + "</h3>";
+		showStickyWarningToast();
+		document.getElementById("message").innerHTML = "<h3 class='message_alt'>His age is " + y + "</h3>";
 		return;	
 		}		
 		

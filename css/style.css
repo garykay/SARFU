@@ -33,22 +33,28 @@ body.homepage {
 	}		
 		
 .message {
-	color:#10B000;
-	font-size: 18px;
+	text-align: center;
+	background: #99D000;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color:#FFFFFF;
+	font-size: 24px;
 	}	
 	
 .message_alt {
-	color: #F00;
-	font-size: 18px;
+	text-align: center;
+	background: #ffd14c;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color:#FFFFFF;
+	font-size: 24px;
 	}
 	
 .warning_message {
-	color: #F00;
-	font-size: 18px;
-	}
-	
-select#formInput5 {
-	width: 100%;
-	height: 50px;
-	font-size: 18px;
-}				
+	text-align: center;
+	background: #DB000E;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color:#FFFFFF;
+	font-size: 24px;
+	}			
