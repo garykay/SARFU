@@ -1,0 +1,64 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body.homepage {
+	background-image:url(../images/bok.jpg);
+	background-repeat:no-repeat;
+	background-position:center 215px;
+	}
+
+#current {
+	color: #BD0006;
+	}
+
+.backtostart, .agebox {
+	width: 100%;
+	font-size:24px;
+		}
+		
+.submitage {
+	width: 48%;
+	font-size:24px;
+	float: right;
+	}
+	
+.restebtn {
+	width: 48%;
+	font-size:24px;
+	float: left;
+	 }			
+		
+.backtostart {
+	margin-top: 30px;
+	}		
+		
+.message {
+	text-align: center;
+	background: #99D000;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color:#FFFFFF;
+	font-size: 24px;
+	}	
+	
+.message_alt {
+	text-align: center;
+	background: #ffd14c;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color:#FFFFFF;
+	font-size: 24px;
+	}
+	
+.warning_message {
+	text-align: center;
+	background: #DB000E;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color:#FFFFFF;
+	font-size: 24px;
+	}
+	
+.toast-item-wrapper {
+	margin-top: 190px;
+	}				
